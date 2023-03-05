@@ -1,0 +1,81 @@
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T212454.200.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T212407.200.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T212333.200.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/api/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T212246.500.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/api/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T211607.404.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T211533.404.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T211431.404.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T211430.404.html
+
+###
+
+GET http://localhost:8080/servletApp_war_exploded/
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-04T211353.500.html
+
+###
+

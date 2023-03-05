@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    <meta http-equiv="refresh" content="4">-->
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../../css/register.css">
+    <script defer src="../../js/index.js"></script>
+    <!--    bootstrap start-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--    bootstrap end-->
+    <!--    font awesome css start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--    font awesome css end-->
+
+</head>
+<body style="height: 100vh;">
+<div class="container-lg h-100">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" href="./views/pages/login.html">Login</a>
+                    <a class="nav-link" href="./views/pages/registration.html">Register</a>
+                    <a class="nav-link" href="/views/pages/detail.html">Detail</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="d-flex h-100 justify-content-center">
+        <form name="registration" class="registartion-form">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" name="email" id="email" placeholder="your email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="phoneNumber">Phone Number:</label></td>
+                    <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>Male: <input type="radio" name="gender" value="male">
+                        Female: <input type="radio" name="gender" value="female">
+                        Other: <input type="radio" name="gender" value="other"></td>
+                </tr>
+                <tr>
+                    <td><label for="language">language</label></td>
+                    <td>
+                        <select name="language" id="language">
+                            <option value="">Select language</option>
+                            <option value="English">English</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Arabic">Arabic</option>
+                            <option value="Russian">Russian</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zipcode">Zip Code:</label></td>
+                    <td><input type="number" name="zipcode" id="zipcode"></td>
+                </tr>
+                <tr>
+                    <td><label for="about">About:</label></td>
+                    <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="submit" value="Register"/></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
